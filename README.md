@@ -33,7 +33,7 @@ The web application has a health endpoint which is accessible at `<host>:<port>/
 
 You can [deploy this application to IBM Cloud](https://cloud.ibm.com/developer/appservice/starter-kits/java-liberty-app) or [build it locally](#building-locally) by cloning this repo first.  Once your app is live, you can access the `/health` endpoint to build out your cloud native application.
 
-### Deploying to IBM Cloud
+### Setting up from the IBM Cloud console
 
 <p align="center">
     <a href="https://cloud.ibm.com/developer/appservice/starter-kits/java-liberty-app">
@@ -44,6 +44,10 @@ You can [deploy this application to IBM Cloud](https://cloud.ibm.com/developer/a
 Click **Deploy to IBM Cloud** to deploy this same application to IBM Cloud. This option creates a deployment pipeline, complete with a hosted GitLab project and a DevOps toolchain. You can deploy your app to Cloud Foundry, a Kubernetes cluster, or a Red Hat OpenShift cluster. OpenShift is available only through a standard cluster, which requires you to have a billable account.
 
 [IBM Cloud DevOps](https://www.ibm.com/cloud/devops) services provides toolchains as a set of tool integrations that support development, deployment, and operations tasks inside IBM Cloud.
+
+### Setting up from IBM Cloud Schematics
+
+Follow the [README](https://github.com/IBM-Cloud/Scalable-web-app-liberty/tree/master/terraform/README.md) instructions for creating and deploying your application via IBM Cloud Schematics, which uses Terraform templates to create an IKS cluster and IBM Cloud DevOps toolchain. 
 
 ### Building Locally
 
