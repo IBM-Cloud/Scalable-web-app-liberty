@@ -31,10 +31,10 @@ Follow these two easy steps below to create an IBM Cloud Schematics Workspace, a
 ### Create an IBM Cloud Schematics Workspace
 
 <p align="center">
-    <a href="https://cloud.ibm.com/schematics/workspaces/create?repository=https://github.com/IBM-Cloud/Scalable-web-app-node/tree/master/terraform/kubernetes&terraform_version=terraform_v0.12">
+    <a href="https://cloud.ibm.com/schematics/workspaces/create?repository=https://github.com/IBM-Cloud/Scalable-web-app-node/tree/master/terraform/simple-kube&terraform_version=terraform_v0.12">
     <img src="https://cloud.ibm.com/devops/setup/deploy/button_x2.png" alt="Deploy to Kubernetes on IBM Cloud">
     </a>
-    <a href="https://cloud.ibm.com/schematics/workspaces/create?repository=https://github.com/IBM-Cloud/Scalable-web-app-node/tree/master/terraform/openshift&terraform_version=terraform_v0.12">
+    <a href="https://cloud.ibm.com/schematics/workspaces/create?repository=https://github.com/IBM-Cloud/Scalable-web-app-node/tree/master/terraform/simple-openshift&terraform_version=terraform_v0.12">
     <img src="https://cloud.ibm.com/devops/setup/deploy/button_x2.png" alt="Deploy to OpenShift on IBM Cloud">
     </a>
 </p>
